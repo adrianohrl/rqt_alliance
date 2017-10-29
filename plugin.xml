@@ -1,0 +1,18 @@
+<library path="lib/librqt_alliance">
+  <class name="rqt_alliance/AlliancePlugin" type="rqt_alliance::AlliancePlugin" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      A C++ GUI plugin for visualization and monitoring of a MRTA using the ALLIANCE approach.
+    </description>
+    <qtgui>
+      <group>
+        <label>Visualization</label>
+      </group>
+      <group>
+        <label>MRTA</label>
+      </group>
+      <label>ALLIANCE C++ Plugin</label>
+      <icon type="theme">utilities-system-monitor</icon>
+      <statustip>User interface to monitoring and alter ALLIANCE parameters.</statustip>
+    </qtgui>
+  </class>
+</library>

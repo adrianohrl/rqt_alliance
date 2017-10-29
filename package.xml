@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package>
+  <name>rqt_alliance</name>
+  <version>0.0.0</version>
+  <description>The rqt_alliance package</description>
+
+  <maintainer email="adrianohrl@unifei.edu.br">Adriano Henrique Rossette Leite</maintainer>
+  <license>Apache 2.0</license>
+  <url type="website">https://github.com/adrianohrl/rqt_alliance/wiki</url>
+  <author email="adrianohrl@unifei.edu.br">Adriano Henrique Rossette Leite</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>alliance</build_depend>
+  <build_depend>alliance_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>roslint</build_depend>
+  <build_depend>rqt_gui</build_depend>
+  <build_depend>rqt_gui_cpp</build_depend>
+  <build_depend>rqt_multiplot</build_depend>
+  <build_depend>ruler</build_depend>
+  <build_depend>ruler_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>alliance</run_depend>
+  <run_depend>alliance_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rqt_gui</run_depend>
+  <run_depend>rqt_gui_cpp</run_depend>
+  <run_depend>rqt_multiplot</run_depend>
+  <run_depend>ruler</run_depend>
+  <run_depend>ruler_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <export>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>
