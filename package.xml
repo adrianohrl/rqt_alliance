@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rqt_alliance</name>
-  <version>0.0.0</version>
+  <version>1.0.0</version>
   <description>The rqt_alliance package</description>
 
   <maintainer email="adrianohrl@unifei.edu.br">Adriano Henrique Rossette Leite</maintainer>
