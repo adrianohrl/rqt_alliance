@@ -5,8 +5,7 @@
 #include <rqt_multiplot/PlotWidget.h>
 #include <utilities/motivation_plot_generator.h>
 
-PLUGINLIB_DECLARE_CLASS(rqt_alliance, AlliancePlugin,
-                        rqt_alliance::AlliancePlugin, rqt_gui_cpp::Plugin)
+PLUGINLIB_EXPORT_CLASS(rqt_alliance::AlliancePlugin, rqt_gui_cpp::Plugin)
 
 namespace rqt_alliance
 {
